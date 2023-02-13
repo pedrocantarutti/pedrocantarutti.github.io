@@ -97,28 +97,28 @@ html {
   font-family: c;
   font-style: normal;
   font-weight: normal;
-  src: url('./fonts/Roboto-Regular.ttf');
+  src: url('../fonts/Roboto-Regular.ttf');
 }
 
 @font-face {
   font-family: c;
   font-style: italic;
   font-weight: normal;
-  src: url('./fonts/Roboto-Italic.ttf');
+  src: url('../fonts/Roboto-Italic.ttf');
 }
 
 @font-face {
   font-family: c;
   font-style: normal;
   font-weight: bold;
-  src: url('./fonts/Roboto-Bold.ttf');
+  src: url('../fonts/Roboto-Bold.ttf');
 }
 
 @font-face {
   font-family: c;
   font-style: italic;
   font-weight: bold;
-  src: url('./fonts/Roboto-BoldItalic.ttf');
+  src: url('../fonts/Roboto-BoldItalic.ttf');
 }
 
 .d {
@@ -237,21 +237,21 @@ html {
 
 .n {
   position: relative;
-  background: url("./img/me.jpeg") no-repeat 50.00% 50.00%;
+  background: url("../img/me.jpeg") no-repeat 50.00% 50.00%;
   ;
   background-size: auto 100%;
   border-radius: 10px;
 }
 
 .n:hover {
-  background: url("./img/me.jpeg") no-repeat 50.00% 50.00%;
+  background: url("../img/me.jpeg") no-repeat 50.00% 50.00%;
   ;
   background-size: auto 100%;
 }
 
 @media all and (hover: none) {
   .n:hover {
-      background: url("./img/me.jpeg") no-repeat 50.00% 50.00%;
+      background: url("../img/me.jpeg") no-repeat 50.00% 50.00%;
       ;
       background-size: auto 100%;
   }
@@ -261,28 +261,28 @@ html {
   font-family: o;
   font-style: normal;
   font-weight: normal;
-  src: url('./fonts/NotoSerif-Regular.ttf');
+  src: url('../fonts/NotoSerif-Regular.ttf');
 }
 
 @font-face {
   font-family: o;
   font-style: italic;
   font-weight: normal;
-  src: url('./fonts/NotoSerif-Italic.ttf');
+  src: url('../fonts/NotoSerif-Italic.ttf');
 }
 
 @font-face {
   font-family: o;
   font-style: normal;
   font-weight: bold;
-  src: url('./fonts/NotoSerif-Bold.ttf');
+  src: url('../fonts/NotoSerif-Bold.ttf');
 }
 
 @font-face {
   font-family: o;
   font-style: italic;
   font-weight: bold;
-  src: url('./fonts/NotoSerif-BoldItalic.ttf');
+  src: url('../fonts/NotoSerif-BoldItalic.ttf');
 }
 
 .p {
@@ -294,7 +294,7 @@ html {
 .q {
   box-shadow: 0 0.25rem 0.6rem #000;
   height: 40vh;
-  background: url("./img/bg1.jpeg") no-repeat 50.00% 20.99%;
+  background: url("../img/bg1.jpeg") no-repeat 50.00% 20.99%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
