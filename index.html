@@ -243,20 +243,20 @@
 
         .n {
             position: relative;
-            background: url("r/casey_logo_2_727b73d3a32a947b.png") no-repeat 50.00% 50.00%;
+            background: url("./img/me.jpeg") no-repeat 50.00% 50.00%;
             ;
             background-size: auto 100%;
         }
 
         .n:hover {
-            background: url("r/casey_logo_2_scrimpus_d2db0b50b84ec5b.png") no-repeat 50.00% 50.00%;
+            background: url("./img/me.jpeg") no-repeat 50.00% 50.00%;
             ;
             background-size: auto 100%;
         }
 
         @media all and (hover: none) {
             .n:hover {
-                background: url("r/casey_logo_2_727b73d3a32a947b.png") no-repeat 50.00% 50.00%;
+                background: url("./img/me.jpeg") no-repeat 50.00% 50.00%;
                 ;
                 background-size: auto 100%;
             }
@@ -266,28 +266,28 @@
             font-family: o;
             font-style: normal;
             font-weight: normal;
-            src: url('r/NotoSerif-Regular_c0ef5bc7ac590312.ttf');
+            src: url('./fonts/NotoSerif-Regular.ttf');
         }
 
         @font-face {
             font-family: o;
             font-style: italic;
             font-weight: normal;
-            src: url('r/NotoSerif-Italic_d4bd7c255b906f22.ttf');
+            src: url('./fonts/NotoSerif-Italic.ttf');
         }
 
         @font-face {
             font-family: o;
             font-style: normal;
             font-weight: bold;
-            src: url('r/NotoSerif-Bold_e2f6455ab527b9c1.ttf');
+            src: url('./fonts/NotoSerif-Bold.ttf');
         }
 
         @font-face {
             font-family: o;
             font-style: italic;
             font-weight: bold;
-            src: url('r/NotoSerif-BoldItalic_be464ddc346807e2.ttf');
+            src: url('./fonts/NotoSerif-BoldItalic.ttf');
         }
 
         .p {
@@ -299,7 +299,7 @@
         .q {
             box-shadow: 0 0.25rem 0.6rem #000;
             height: 40vh;
-            background: url("r/portrait_casey_wide_9672e3739e340674.png") no-repeat 50.00% 20.99%;
+            background: url("./img/bg1.jpeg") no-repeat 50.00% 20.99%;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -543,7 +543,8 @@
                             <td style='width:4.50rem;vertical-align:middle;'><a class='e n'
                                     href='https://pedrocantarutti.github.io/'>&nbsp;</a></td>
                             <td class='i'>
-                                <div class='j'><a href='https://pedrocantarutti.github.io/'>Pedro&rsquo;s Tech Stuff</a></div>
+                                <div class='j'><a href='https://pedrocantarutti.github.io/'>Pedro&rsquo;s Tech Stuff</a>
+                                </div>
                                 <div class='k'>About</div>
                             </td>
                         </tr>
@@ -624,8 +625,26 @@
             </div>
         </div>
     </div>
-    <script type='text/javascript'>function B(Q, R, S) { var T = document.getElementById(Q); var U = document.getElementById(R); var V = document.getElementById(S); if (U.originalValue && (U.value != U.originalValue)) { V.innerHTML = ""; U.value = U.originalValue; } var W = T.children; var X = false; for (Y = 0; Y < W.length; Y++) { var Z = W[Y]; if ((Z.type != "button") && (Z.value == "")) { X = true; } } U.disabled = X; } function C(Q, R, S, _, ba) { var T = document.getElementById(Q); var U = document.getElementById(R); var V = document.getElementById(S); var bb = "op=" + _ + "&name=" + ba; if (!U.originalValue) { U.originalValue = U.value; } U.disabled = true; U.value = "     ...     "; var W = T.children; for (Y = 0; Y < W.length; Y++) { var Z = W[Y]; if (Z.type != "button") { bb += "&" + Z.name + "=" + encodeURIComponent(Z.value); Z.disabled = true; } } bc = new XMLHttpRequest(); bc.open("GET", "https://db.mollyrocket.com/op?" + bb, true); bc.responseType = "json"; bc.onreadystatechange = function () { if (bc.readyState == 4) { U.value = "TRY AGAIN"; U.disabled = false; if (bc.status == 200) { try { var bd = bc.response; if (bd.message) { V.innerHTML = bd.message; } else { V.innerHTML = ""; } if (bd.button) { U.value = bd.button; } else { U.value = U.originalValue; } } catch (be) { V.innerHTML = "Server appears to be malfunctioning :(  Please try again later!"; } } else { V.innerHTML = "Unable to contact server :(  This may be due to a route, machine, or datacenter failure.  Please try again later!"; } for (Y = 0; Y < W.length; Y++) { var Z = W[Y]; if (Z.type != "button") { Z.disabled = false; } } } }; bc.send(); } B("H", "I", "J");
-    </script>
+    <script type='text/javascript'>
+        function B(Q, R, S) {
+            var T = document.getElementById(Q);
+            var U = document.getElementById(R);
+            var V = document.getElementById(S);
+            if (U.originalValue && (U.value != U.originalValue)) {
+                V.innerHTML = "";
+                U.value = U.originalValue;
+            }
+            var W = T.children;
+            var X = false;
+            for (Y = 0; Y < W.length; Y++) {
+                var Z = W[Y];
+                if ((Z.type != "button") && (Z.value == "")) {
+                    X = true;
+                }
+            }
+            U.disabled = X;
+        }
+        </script>
 </body>
 
 </html>
