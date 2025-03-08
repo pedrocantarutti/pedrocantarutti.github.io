@@ -21,6 +21,6 @@ copyright = "&copy; Copyright 2025, Pedro Cantarutti"
     fa_icon = "fab fa-linkedin-in fa-1x"
     href = "https://www.linkedin.com/in/pedrocantarutti/"
   [[params.social]]
-    fa_icon = "fas fa-at fa-1x"
+    fa_icon = "fas fa-envelope fa-1x"
     href = "mailto:cantarutti.pedro@gmail.com"
 
