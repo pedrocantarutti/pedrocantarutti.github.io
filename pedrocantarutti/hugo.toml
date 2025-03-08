@@ -1,0 +1,26 @@
+baseURL = 'https://pedrocantarutti.github.io/'
+languageCode = 'en-us'
+title = 'Pedro Cantarutti'
+theme = 'devise'
+copyright = "&copy; Copyright 2025, Pedro Cantarutti"
+
+[params]
+  description = "Pedro Cantarutti's personal website"
+  header_title = "Pedro Cantarutti"
+  header_subtitle = "Senior Software Engineer | Canela, RS"
+  home_image = "/me.jpeg" 
+  [params.style]
+    backgroundColor = "#f8f9fa"
+    homeImageBorderColor = "#ffffff"
+    fontFamilyBase = "Helvetica Neue"
+    fontColor = "#212529"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"
+    href = "http://github.com/pedrocantarutti"
+  [[params.social]]
+    fa_icon = "fab fa-linkedin-in fa-1x"
+    href = "https://www.linkedin.com/in/pedrocantarutti/"
+  [[params.social]]
+    fa_icon = "fas fa-at fa-1x"
+    href = "mailto:cantarutti.pedro@gmail.com"
+

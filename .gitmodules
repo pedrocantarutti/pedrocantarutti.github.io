@@ -1,0 +1,3 @@
+[submodule "pedrocantarutti/themes/devise"]
+	path = pedrocantarutti/themes/devise
+	url = https://github.com/austingebauer/devise.git
